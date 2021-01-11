@@ -11,32 +11,34 @@ import ReactDom from "react-dom";
  * formatting
  */
 
-function Greeting() {
+function BookList() {
   return (
-    <div>
-      <Person />
-      <Greet />
-    </div>
+    <section>
+      <Book />
+    </section>
   );
 }
 
-const Person = () => {
+const Book = () => {
   return (
-    <div>
-      <h1>Hello World</h1>
-      <h2>Sachu Verma</h2>
-    </div>
+    <article>
+      <Image />
+      <Title />
+      <Author />
+    </article>
   );
 };
 
-const Greet = () => {
-  return (
-    <div>
-      <div>This is my first React App</div>
-      <img src="" alt="alt text for img tag" />
-      <input type="text" />
-    </div>
-  );
-};
+const Image = () => (
+  <img
+    src="https://images-na.ssl-images-amazon.com/images/I/51KkyqK7avL._AC_SX184_.jpg"
+    alt="book cover page"
+  />
+);
 
-ReactDom.render(<Greeting />, document.getElementById("root"));
+const Title = () => (
+  <h1>Wintering: The Power of Rest and Retreat in Difficult Times</h1>
+);
+const Author = () => <h4>Katherine May</h4>;
+
+ReactDom.render(<BookList />, document.getElementById("root"));
