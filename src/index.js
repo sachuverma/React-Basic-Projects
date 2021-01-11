@@ -13,13 +13,30 @@ import ReactDom from "react-dom";
 
 function Greeting() {
   return (
-    <>
-      <h1>Hello World</h1>
-      <div>This is my first React App</div>
-      <img src="" alt="" />
-      <input type="text" />
-    </>
+    <div>
+      <Person />
+      <Greet />
+    </div>
   );
 }
+
+const Person = () => {
+  return (
+    <div>
+      <h1>Hello World</h1>
+      <h2>Sachu Verma</h2>
+    </div>
+  );
+};
+
+const Greet = () => {
+  return (
+    <div>
+      <div>This is my first React App</div>
+      <img src="" alt="alt text for img tag" />
+      <input type="text" />
+    </div>
+  );
+};
 
 ReactDom.render(<Greeting />, document.getElementById("root"));
