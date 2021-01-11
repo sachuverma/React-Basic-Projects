@@ -1,12 +1,24 @@
 import React from "react";
 import ReactDom from "react-dom";
 
+// JSX RULES
+/**
+ * return single element
+ * div / section / acticle or Fragment
+ * use camelCase for html attributes
+ * className instead of class
+ * close every element
+ * formatting
+ */
+
 function Greeting() {
   return (
-    <div>
+    <>
       <h1>Hello World</h1>
-      This is my first React App
-    </div>
+      <div>This is my first React App</div>
+      <img src="" alt="" />
+      <input type="text" />
+    </>
   );
 }
 
