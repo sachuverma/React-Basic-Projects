@@ -36,6 +36,11 @@ body {
   margin: 0.5rem 0 0 0;
 }
 
+.book h1:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
 .book img {
   margin: auto;
   max-height: 280px;
