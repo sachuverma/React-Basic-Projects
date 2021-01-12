@@ -5,7 +5,14 @@ const url = "https://api.github.com/users/sachuverma";
 const MultipleReturns = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [isError, setIsError] = useState(false);
-  const [user, setUser] = useState("default user");
+
+  const [myProfile, setMyProfile] = useState({
+    user: "default user",
+    link: "#",
+    avatar_url: "https://via.placeholder.com/200",
+    followers: 0,
+    following: 0,
+  });
 
   useEffect(() => {
     fetch(url)
@@ -19,8 +26,16 @@ const MultipleReturns = () => {
         }
       })
       .then((user) => {
-        const { login } = user;
-        setUser(login);
+        const { login, avatar_url, followers, following, html_url } = user;
+        setMyProfile({
+          ...myProfile,
+          user: login,
+          link: html_url,
+          avatar_url,
+          followers,
+          following,
+        });
+
         setIsLoading(false);
       })
       .catch((error) => console.log(error));
@@ -42,7 +57,22 @@ const MultipleReturns = () => {
   }
   return (
     <div>
-      <h1>{user}</h1>
+      <a href={myProfile.link} target="_blank">
+        <img
+          style={{ maxWidth: "200px", borderRadius: "50%" }}
+          src={myProfile.avatar_url}
+          alt={myProfile.user}
+        />
+      </a>
+      <h1>{myProfile.user}</h1>
+      <ul>
+        <li>
+          <h4>Followers: {myProfile.followers}</h4>
+        </li>
+        <li>
+          <h4>Following: {myProfile.following}</h4>
+        </li>
+      </ul>
     </div>
   );
 };
