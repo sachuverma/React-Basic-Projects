@@ -38,6 +38,7 @@ body {
 
 .book img {
   margin: auto;
+  max-height: 280px;
 }
 
 .book h4 {
