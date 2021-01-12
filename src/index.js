@@ -39,12 +39,7 @@ function BookList() {
         title="Think Like a Monk: The secret of how to harness the power of positivity and be happy now"
         author="Jay Shetty"
         img="https://images-na.ssl-images-amazon.com/images/I/41gVhoPaE5L._SX323_BO1,204,203,200_.jpg"
-      >
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-          voluptatum molestiae, dolores ratione omnis voluptatem in, quibusdam
-        </p>
-      </Book>
+      ></Book>
     </section>
   );
 }
