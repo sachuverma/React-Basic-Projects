@@ -8,7 +8,7 @@
 
 <br />
 
-## 2. Birthday Remainder
+## 2. Birthday Reminder
   ![birthdayremainder](./images/birthday-remainder.png)
 
   - [Deployed Here](https://react-birthdayremainder.netlify.app/)
@@ -16,7 +16,7 @@
 
 <br />
 
-## 3. Tours 
+## 3. Tours List
   ![tours](./images/tourlist.png)
 
   - [Deployed Here](https://react-tourlist.netlify.app/)
@@ -24,10 +24,10 @@
 
 <br />
 
-## 4. Reviews 
+## 4. Our Reviews 
   ![reviews](./images/reviews.png)
 
-  - [Deployed Here]()
+  - [Deployed Here](https://react-reviewlist.netlify.app/)
   - 
 
 <br />
