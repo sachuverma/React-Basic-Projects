@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const UseStateCounter = () => {
-  return <h2>useState counter example</h2>;
+  return <div>useState counter example</div>;
 };
 
 export default UseStateCounter;
