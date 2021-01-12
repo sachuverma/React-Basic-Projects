@@ -39,3 +39,11 @@
   - 
 
 <br />
+
+## 6. Menu Items
+  ![menu](./images/menu.png)
+
+  - [Deployed Here](https://react-menuitems.netlify.app/)
+  - 
+
+<br />
