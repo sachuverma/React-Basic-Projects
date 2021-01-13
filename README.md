@@ -47,3 +47,11 @@
   - 
 
 <br />
+
+## 7. Tabs
+  ![tabs](./images/tabs.png)
+
+  - [Deployed Here](https://react-tabitems.netlify.app/)
+  - 
+
+<br />
