@@ -55,3 +55,11 @@
   - 
 
 <br />
+
+## 7. Slider
+  ![slider](./images/slider.png)
+
+  - [Deployed Here](https://react-slideritems.netlify.app/)
+  - 
+
+<br />
