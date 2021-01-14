@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import SingleColor from "./SingleColor";
 
 import Values from "values.js";
@@ -21,6 +21,17 @@ function App() {
     }
   };
 
+  // useEffect(() => {
+  //   setError(false);
+  //   try {
+  //     let colors = new Values(color).all(gap);
+  //     setList(colors);
+  //   } catch (error) {
+  //     setError(true);
+  //     console.log(error);
+  //   }
+  // }, [gap]);
+
   return (
     <>
       <section className="container">
@@ -38,6 +49,7 @@ function App() {
           </button>
           <input
             name="slider"
+            id="slider"
             type="range"
             min="1"
             max="100"
@@ -47,6 +59,12 @@ function App() {
               setGap(e.target.value);
             }}
           />
+          <label
+            style={{ marginLeft: "5px", fontSize: "1.5rem", color: "#3C4E74" }}
+            htmlFor="slider"
+          >
+            {gap}
+          </label>
         </form>
       </section>
       <section className="colors">
