@@ -71,3 +71,11 @@
   - 
 
 <br />
+
+## 9. Color Generator
+  ![color](./images/color.png)
+
+  - [Deployed Here](https://react-colorgenerate.netlify.app/)
+  - 
+
+<br />

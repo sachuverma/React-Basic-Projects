@@ -6,13 +6,14 @@ import Values from "values.js";
 function App() {
   const [color, setColor] = useState("");
   const [error, setError] = useState(false);
-  const [list, setList] = useState(new Values("#779CE7").all(10));
+  const [gap, setGap] = useState(10);
+  const [list, setList] = useState(new Values("#779CE7").all(gap));
 
   const handleSubmit = (e) => {
     e.preventDefault();
     setError(false);
     try {
-      let colors = new Values(color).all(10);
+      let colors = new Values(color).all(gap);
       setList(colors);
     } catch (error) {
       setError(true);
@@ -35,6 +36,17 @@ function App() {
           <button className="btn" type="submit">
             submit
           </button>
+          <input
+            name="slider"
+            type="range"
+            min="1"
+            max="100"
+            value={gap}
+            className="slider"
+            onChange={(e) => {
+              setGap(e.target.value);
+            }}
+          />
         </form>
       </section>
       <section className="colors">
