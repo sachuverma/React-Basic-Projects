@@ -63,3 +63,11 @@
   - 
 
 <br />
+
+## 8. Lorem Ipsum
+  ![lorem](./images/lorem.png)
+
+  - [Deployed Here](https://react-loremipsum.netlify.app/)
+  - 
+
+<br />
