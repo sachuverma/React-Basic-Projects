@@ -6,6 +6,15 @@ import logo from "./logo.svg";
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
+  const linksContainerRef = useRef(null);
+  const linkRef = useRef(null);
+
+  useEffect(() => {
+    const linksHeight = linkRef.current.getBoundingClientRect().height;
+
+    if (showLinks) linksContainerRef.current.style.height = `${linksHeight}px`;
+    else linksContainerRef.current.style.height = "0px";
+  }, [showLinks]);
 
   return (
     <nav>
@@ -19,20 +28,20 @@ const Navbar = () => {
             <FaBars />
           </button>
         </div>
-        {showLinks && (
-          <div className="links-container show-container">
-            <ul className="links">
-              {links.map((link) => {
-                const { id, url, text } = link;
-                return (
-                  <li key={id}>
-                    <a href={url}>{text}</a>
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
-        )}
+
+        <div className="links-container" ref={linksContainerRef}>
+          <ul className="links" ref={linkRef}>
+            {links.map((link) => {
+              const { id, url, text } = link;
+              return (
+                <li key={id}>
+                  <a href={url}>{text}</a>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+
         <ul className="social-icons">
           {social.map((item) => {
             const { id, url, icon } = item;
