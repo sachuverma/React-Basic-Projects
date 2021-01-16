@@ -95,3 +95,11 @@
   - 
 
 <br />
+
+## 12. Sidebar Modal
+  ![nav](./images/sidebarmodal.png)
+
+  - [Deployed Here](https://react-modal-side-bar.netlify.app/)
+  - 
+
+<br />
