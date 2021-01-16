@@ -20,6 +20,8 @@ import UseRefBasics from "./tutorial/5-useRef/setup/1-useRef-basics";
 
 import Index from "./tutorial/6-useReducer/setup";
 
+import PropDrilling from "./tutorial/7-prop-drilling/setup/1-prop-drilling";
+
 function App() {
   return (
     <div className="container">
@@ -44,6 +46,8 @@ function App() {
       <UseRefBasics />
 
       <Index />
+
+      <PropDrilling />
     </div>
   );
 }
