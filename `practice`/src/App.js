@@ -25,6 +25,8 @@ import UseContext from "./tutorial/8-useContext/setup/1-context-api";
 
 import FetchExample from "./tutorial/9-custom-hooks/setup/1-fetch-example";
 
+import Products from "./tutorial/10-prop-types/setup";
+
 function App() {
   return (
     <div className="container">
@@ -54,6 +56,8 @@ function App() {
       <UseContext />
 
       <FetchExample />
+
+      <Products />
     </div>
   );
 }
