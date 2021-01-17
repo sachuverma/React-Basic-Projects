@@ -120,7 +120,15 @@
 
 <br />
 
-## 15. Practice
+## 15. Cocktails
+  ![cocktails](./images/cocktails.png)
+
+  - [Deployed Here](https://react-cock-tails.netlify.app/)
+  - 
+
+<br />
+
+## 16. Practice
   ![practice](./images/practice.png)
 
   - [Deployed Here](https://react-practice-hooks.netlify.app/)
