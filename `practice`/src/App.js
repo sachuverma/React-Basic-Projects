@@ -27,9 +27,13 @@ import FetchExample from "./tutorial/9-custom-hooks/setup/1-fetch-example";
 
 import Products from "./tutorial/10-prop-types/setup";
 
+import ReactRouter from "./tutorial/11-react-router/setup";
+
 function App() {
   return (
     <div className="container">
+      <ReactRouter />
+
       <MultipleReturns />
 
       <UseEffectFetchData />
