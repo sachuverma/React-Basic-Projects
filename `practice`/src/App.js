@@ -29,6 +29,8 @@ import Products from "./tutorial/10-prop-types/setup";
 
 import ReactRouter from "./tutorial/11-react-router/setup";
 
+import ReactOptm from "./tutorial/12-memo-useMemo-useCallback/setup/index";
+
 function App() {
   return (
     <div className="container">
@@ -62,6 +64,7 @@ function App() {
       <FetchExample />
 
       <Products />
+      <ReactOptm />
     </div>
   );
 }
