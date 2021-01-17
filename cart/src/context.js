@@ -25,7 +25,7 @@ const AppProvider = ({ children }) => {
   };
 
   const incdec = (id, inc) => {
-    dispatch({ type: "INC_DEC", payload: id, inc });
+    dispatch({ type: "INC_DEC", id, inc });
   };
 
   const fetchData = async () => {

@@ -37,7 +37,7 @@ const reducer = (state, action) => {
 
     let tempCart = state.cart
       .map((item) => {
-        if (item.id === action.payload) {
+        if (item.id === action.id) {
           if (action.inc === 1) {
             return {
               ...item,
