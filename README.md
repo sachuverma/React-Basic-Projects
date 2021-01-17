@@ -113,9 +113,17 @@
 <br />
 
 ## 14. Cart Page
-  ![stripe menu](./images/cart.png)
+  ![cart](./images/cart.png)
 
   - [Deployed Here](https://react-cart-page.netlify.app/)
+  - 
+
+<br />
+
+## 15. Practice
+  ![practice](./images/practice.png)
+
+  - [Deployed Here](https://react-practice-hooks.netlify.app/)
   - 
 
 <br />
