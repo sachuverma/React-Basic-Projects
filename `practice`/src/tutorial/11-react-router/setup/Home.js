@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
 
 const Home = () => {
   return (
     <div>
-      <h1>Home Page</h1>
+      <h2>Home Page</h2>
+      <p>shake and bake</p>
     </div>
   );
 };
