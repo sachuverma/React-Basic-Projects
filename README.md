@@ -97,9 +97,17 @@
 <br />
 
 ## 12. Sidebar Modal
-  ![nav](./images/sidebarmodal.png)
+  ![sidebar modal](./images/sidebarmodal.png)
 
   - [Deployed Here](https://react-modal-side-bar.netlify.app/)
+  - 
+
+<br />
+
+## 13. Stripe Menu
+  ![stripe menu](./images/stripe.png)
+
+  - [Deployed Here](https://react-stripe-submenu-sidebar.netlify.app/)
   - 
 
 <br />
