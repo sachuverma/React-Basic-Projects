@@ -240,6 +240,11 @@ This is an example of how to list things you need to use the software and how to
     - clone the project using `git clone` command and using terminal in project directory
     - run `npm install` to install all dependencies and
     - `npm start` to start project on development server 
+  - Hooks used
+    - useState
+  - *App* component renders *Categories* and *Menu* components
+  - *Menu* component renders all the items and *Category* component filters out the items from the array
+  - all items are present in `data.js` 
 
 <br />
 
@@ -253,6 +258,11 @@ This is an example of how to list things you need to use the software and how to
     - clone the project using `git clone` command and using terminal in project directory
     - run `npm install` to install all dependencies and
     - `npm start` to start project on development server 
+  - Hooks used
+    - useState
+    - use Effect
+  - *App* component fetches data from api and displays loading logo while fetching and displays items in tab form 
+  - tabs can be switched by selecting the corresponding title for each item
 
 <br />
 
@@ -266,6 +276,11 @@ This is an example of how to list things you need to use the software and how to
     - clone the project using `git clone` command and using terminal in project directory
     - run `npm install` to install all dependencies and
     - `npm start` to start project on development server 
+  - Hooks used
+    - useState
+    - useEffect
+  - *App* component renders feedbacks in card forms which can slide automatically or using array buttons
+  - feedback data is fetched from `data.js` 
 
 <br />
 
@@ -278,7 +293,12 @@ This is an example of how to list things you need to use the software and how to
   - Installation Steps
     - clone the project using `git clone` command and using terminal in project directory
     - run `npm install` to install all dependencies and
-    - `npm start` to start project on development server 
+    - `npm start` to start project on development server
+  - Hooks used
+    - useState
+  - *App* component generates custom numbers of paragraphs of random text specified by user
+  - It minimum generates 1 paragraph
+  - paragraph data is fetched from `data.js` 
 
 <br />
 
@@ -292,6 +312,12 @@ This is an example of how to list things you need to use the software and how to
     - clone the project using `git clone` command and using terminal in project directory
     - run `npm install` to install all dependencies and
     - `npm start` to start project on development server 
+  - Hooks used
+    - useState
+    - useEffect
+  - *App* component renders 10 light and dark shades of a given hex color using `values.js` library
+  - each color is displayed using *SingleColor* component 
+  - color hex values can be copied to clipboard on clicking over the respective color
 
 <br />
 
@@ -305,6 +331,12 @@ This is an example of how to list things you need to use the software and how to
     - clone the project using `git clone` command and using terminal in project directory
     - run `npm install` to install all dependencies and
     - `npm start` to start project on development server 
+  - Hooks used
+    - useState
+    - useEffect
+  - user can add, edit, remove items from the list
+  - *App* component renders the *Alert* messages and *List* component which maps all items
+  
 
 <br />
 
@@ -318,6 +350,11 @@ This is an example of how to list things you need to use the software and how to
     - clone the project using `git clone` command and using terminal in project directory
     - run `npm install` to install all dependencies and
     - `npm start` to start project on development server 
+  - Hooks used
+    - useState
+    - useEffect
+    - useRef
+  - *App* component renders *Navbar* component which displays all the links/urls present in `data.js`
 
 <br />
 
@@ -331,6 +368,11 @@ This is an example of how to list things you need to use the software and how to
     - clone the project using `git clone` command and using terminal in project directory
     - run `npm install` to install all dependencies and
     - `npm start` to start project on development server 
+  - Hooks used
+    - useState
+    - useContext
+  - *App* component renders *Modal* and *Sidebar* components
+  - `context.js` is used to pass context to each component 
 
 <br />
 
@@ -344,6 +386,14 @@ This is an example of how to list things you need to use the software and how to
     - clone the project using `git clone` command and using terminal in project directory
     - run `npm install` to install all dependencies and
     - `npm start` to start project on development server 
+  - Hooks used
+    - useState
+    - useEffect
+    - useRef
+    - useContext
+  - *App* component renders *Navbar* *Sidebar* *Submenu* *Hero* components
+  - `data.js` contains data for links, sublinks
+
 
 <br />
 
@@ -357,6 +407,15 @@ This is an example of how to list things you need to use the software and how to
     - clone the project using `git clone` command and using terminal in project directory
     - run `npm install` to install all dependencies and
     - `npm start` to start project on development server 
+  - Hooks used
+    - useState
+    - useEffect
+    - useContext
+    - useReducer
+  - *App* component renders *Navbar* and *CartContainer* components
+  - *CartContainer* contains lists of *CartItems* fetched from api and their quantities can be changed using buttons provided
+  - `reducer.js` handles all the actions dispatched
+
 
 <br />
 
@@ -370,6 +429,16 @@ This is an example of how to list things you need to use the software and how to
     - clone the project using `git clone` command and using terminal in project directory
     - run `npm install` to install all dependencies and
     - `npm start` to start project on development server 
+  - Hooks used
+    - useState
+    - useEffect
+    - useParams
+  - *App* component routes all the pages using ***ReactRouter***
+  - search input is taken and results are fetched from API and list is displayed
+  - single cocktail details are fetched from API
+  - components contains all components *CocktailList* *Cocktail* *Loading* *Navbar* *SearchForm*
+  - pages contains *About* *Error* *Home* *SingleCocktail* page
+  
 
 <br />
 
