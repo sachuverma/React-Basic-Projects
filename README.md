@@ -107,6 +107,8 @@ This section should list any major frameworks that you built your project using.
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
+<br/>
+
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
@@ -114,6 +116,8 @@ This is an example of how to list things you need to use the software and how to
   ```sh
   npm install npm@latest -g
   ```
+<br/>
+
 
 ### Installation
 
@@ -131,6 +135,243 @@ This is an example of how to list things you need to use the software and how to
    const API_KEY = 'ENTER YOUR API';
    ```
 
+<br/>
+
+
+
+# Projects
+
+## 1. Book List 
+  <p align="center">
+    <img src="./images/booklist.png" alt="book list" width="70%">
+  </p>
+
+  - [Deployed Here](https://basic-booklist.netlify.app/)
+  - Installation Steps
+    - clone the project using `git clone` command and using terminal in project directory
+    - run `npm install && npm start` to install all dependencies and start project on development server  
+  - Hooks used `none`
+  - `index.js` return *BookList* component which contains all books iterated one by one using *Book* component
+  - books data is predefined in `books.js` file as array of objects
+
+<br />
+
+## 2. Birthday Reminder
+  <p align="center">
+    <img src="./images/birthday-remainder.png" alt="birthday rem" width="70%">
+  </p>
+
+  - [Deployed Here](https://react-birthdayremainder.netlify.app/)
+  - Installation Steps
+    - clone the project using `git clone` command and using terminal in project directory
+    - run `npm install` to install all dependencies and
+    - `npm start` to start project on development server
+  - Hooks used
+    - useState  
+  - *App* component render lists of persons using *List* component which maps each person from `data.js`
+  - *removePerson* function filters out the respective person from the list
+
+<br />
+
+## 3. Tours List
+  <p align="center">
+    <img src="./images/tourlist.png" alt="tours" width="70%">
+  </p>
+
+  - [Deployed Here](https://react-tourlist.netlify.app/)
+  - Installation Steps
+    - clone the project using `git clone` command and using terminal in project directory
+    - run `npm install` to install all dependencies and
+    - `npm start` to start project on development server
+  - Hooks used
+    - useState
+    - useEffect
+  - *App* component displays loading state using *Loading* component while fetching data from the api
+  - When tours data is empty corresponding message will be displayed
+  - *Tours* component iterates over all tours fetched from api using *Tour* component
+  - A particular tour can also be remove from list using *removeTour* function 
+
+<br />
+
+## 4. Our Reviews 
+  <p align="center">
+    <img src="./images/reviews.png" alt="reviews" width="70%">
+  </p>
+
+  - [Deployed Here](https://react-reviewlist.netlify.app/)
+  - Installation Steps
+    - clone the project using `git clone` command and using terminal in project directory
+    - run `npm install` to install all dependencies and
+    - `npm start` to start project on development server 
+  - Hooks used
+    - useState
+  - *App* component renders all reviews in card form using *Review* component which can be changed using navigation arrow buttons or a random user is dislayed using *surprise me* button
+  - react icons are used for using arrow button
+  - reviews data is fetched from `data.js`
+
+<br />
+
+## 5. Accordian
+  <p align="center">
+    <img src="./images/accordian.png" alt="accordian" width="70%">
+  </p>
+
+  - [Deployed Here](https://react-faqaccordian.netlify.app/)
+  - Installation Steps
+    - clone the project using `git clone` command and using terminal in project directory
+    - run `npm install` to install all dependencies and
+    - `npm start` to start project on development server
+  - Hooks used
+    - useState
+  - *App* component renders each question using *Question* component
+  - *Question* component can display info depending on state  
+  - questions data is fetched from `data.js`
+  
+
+<br />
+
+## 6. Menu Items
+  <p align="center">
+    <img src="./images/menu.png" alt="menu" width="70%">
+  </p>
+
+  - [Deployed Here](https://react-menuitems.netlify.app/)
+  - Installation Steps
+    - clone the project using `git clone` command and using terminal in project directory
+    - run `npm install` to install all dependencies and
+    - `npm start` to start project on development server 
+
+<br />
+
+## 7. Tabs
+  <p align="center">
+    <img src="./images/tabs.png" alt="tabs" width="70%">
+  </p>
+
+  - [Deployed Here](https://react-tabitems.netlify.app/)
+  - Installation Steps
+    - clone the project using `git clone` command and using terminal in project directory
+    - run `npm install` to install all dependencies and
+    - `npm start` to start project on development server 
+
+<br />
+
+## 7. Slider
+  <p align="center">
+    <img src="./images/slider.png" alt="slider" width="70%">
+  </p>
+
+  - [Deployed Here](https://react-slideritems.netlify.app/)
+  - Installation Steps
+    - clone the project using `git clone` command and using terminal in project directory
+    - run `npm install` to install all dependencies and
+    - `npm start` to start project on development server 
+
+<br />
+
+## 8. Lorem Ipsum
+  <p align="center">
+    <img src="./images/lorem.png" alt="lorem" width="70%">
+  </p>
+
+  - [Deployed Here](https://react-loremipsum.netlify.app/)
+  - Installation Steps
+    - clone the project using `git clone` command and using terminal in project directory
+    - run `npm install` to install all dependencies and
+    - `npm start` to start project on development server 
+
+<br />
+
+## 9. Color Generator
+  <p align="center">
+    <img src="./images/color.png" alt="color" width="70%">
+  </p>
+
+  - [Deployed Here](https://react-colorgenerate.netlify.app/)
+  - Installation Steps
+    - clone the project using `git clone` command and using terminal in project directory
+    - run `npm install` to install all dependencies and
+    - `npm start` to start project on development server 
+
+<br />
+
+## 10. Grocery List
+  <p align="center">
+    <img src="./images/grocery.png" alt="grocery" width="70%">
+  </p>
+
+  - [Deployed Here](https://react-grocerylist.netlify.app/)
+  - Installation Steps
+    - clone the project using `git clone` command and using terminal in project directory
+    - run `npm install` to install all dependencies and
+    - `npm start` to start project on development server 
+
+<br />
+
+## 11. Navbar
+  <p align="center">
+    <img src="./images/nav.png" alt="nav" width="70%">
+  </p>
+
+  - [Deployed Here](https://react-navigation-bar.netlify.app/)
+  - Installation Steps
+    - clone the project using `git clone` command and using terminal in project directory
+    - run `npm install` to install all dependencies and
+    - `npm start` to start project on development server 
+
+<br />
+
+## 12. Sidebar Modal
+  <p align="center">
+    <img src="./images/sidebarmodal.png" alt="sidebarmodal" width="70%">
+  </p>
+
+  - [Deployed Here](https://react-modal-side-bar.netlify.app/)
+  - Installation Steps
+    - clone the project using `git clone` command and using terminal in project directory
+    - run `npm install` to install all dependencies and
+    - `npm start` to start project on development server 
+
+<br />
+
+## 13. Stripe Menu
+  <p align="center">
+    <img src="./images/stripe.png" alt="stripe" width="70%">
+  </p>
+
+  - [Deployed Here](https://react-stripe-submenu-sidebar.netlify.app/)
+  - Installation Steps
+    - clone the project using `git clone` command and using terminal in project directory
+    - run `npm install` to install all dependencies and
+    - `npm start` to start project on development server 
+
+<br />
+
+## 14. Cart Page
+  <p align="center">
+    <img src="./images/cart.png" alt="cart" width="70%">
+  </p>
+
+  - [Deployed Here](https://react-cart-page.netlify.app/)
+  - Installation Steps
+    - clone the project using `git clone` command and using terminal in project directory
+    - run `npm install` to install all dependencies and
+    - `npm start` to start project on development server 
+
+<br />
+
+## 15. Cocktails
+  <p align="center">
+    <img src="./images/cocktails.png" alt="cocktails" width="70%">
+  </p>
+
+  - [Deployed Here](https://react-cock-tails.netlify.app/)
+  - Installation Steps
+    - clone the project using `git clone` command and using terminal in project directory
+    - run `npm install` to install all dependencies and
+    - `npm start` to start project on development server 
+
+<br />
 
 
 <!-- USAGE EXAMPLES -->
@@ -211,141 +452,3 @@ Project Link: [https://github.com/sachuverma/React-Basic-Projects](https://githu
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/sachuverma
 [product-screenshot]: images/screenshot.png
-
-
-
-## 1. Book List 
-  ![booklist](./images/booklist.png)
-
-  - [Deployed Here](https://basic-booklist.netlify.app/)
-  - 
-
-<br />
-
-## 2. Birthday Reminder
-  ![birthdayremainder](./images/birthday-remainder.png)
-
-  - [Deployed Here](https://react-birthdayremainder.netlify.app/)
-  - 
-
-<br />
-
-## 3. Tours List
-  ![tours](./images/tourlist.png)
-
-  - [Deployed Here](https://react-tourlist.netlify.app/)
-  - 
-
-<br />
-
-## 4. Our Reviews 
-  ![reviews](./images/reviews.png)
-
-  - [Deployed Here](https://react-reviewlist.netlify.app/)
-  - 
-
-<br />
-
-## 5. Accordian
-  ![accordia](./images/accordian.png)
-
-  - [Deployed Here](https://react-faqaccordian.netlify.app/)
-  - 
-
-<br />
-
-## 6. Menu Items
-  ![menu](./images/menu.png)
-
-  - [Deployed Here](https://react-menuitems.netlify.app/)
-  - 
-
-<br />
-
-## 7. Tabs
-  ![tabs](./images/tabs.png)
-
-  - [Deployed Here](https://react-tabitems.netlify.app/)
-  - 
-
-<br />
-
-## 7. Slider
-  ![slider](./images/slider.png)
-
-  - [Deployed Here](https://react-slideritems.netlify.app/)
-  - 
-
-<br />
-
-## 8. Lorem Ipsum
-  ![lorem](./images/lorem.png)
-
-  - [Deployed Here](https://react-loremipsum.netlify.app/)
-  - 
-
-<br />
-
-## 9. Color Generator
-  ![color](./images/color.png)
-
-  - [Deployed Here](https://react-colorgenerate.netlify.app/)
-  - 
-
-<br />
-
-## 10. Grocery List
-  ![grocery](./images/grocery.png)
-
-  - [Deployed Here](https://react-grocerylist.netlify.app/)
-  - 
-
-<br />
-
-## 11. Navbar
-  ![nav](./images/nav.png)
-
-  - [Deployed Here](https://react-navigation-bar.netlify.app/)
-  - 
-
-<br />
-
-## 12. Sidebar Modal
-  ![sidebar modal](./images/sidebarmodal.png)
-
-  - [Deployed Here](https://react-modal-side-bar.netlify.app/)
-  - 
-
-<br />
-
-## 13. Stripe Menu
-  ![stripe menu](./images/stripe.png)
-
-  - [Deployed Here](https://react-stripe-submenu-sidebar.netlify.app/)
-  - 
-
-<br />
-
-## 14. Cart Page
-  ![cart](./images/cart.png)
-
-  - [Deployed Here](https://react-cart-page.netlify.app/)
-  - 
-
-<br />
-
-## 15. Cocktails
-  ![cocktails](./images/cocktails.png)
-
-  - [Deployed Here](https://react-cock-tails.netlify.app/)
-  - 
-
-<br />
-
-## 16. Practice
-  ![practice](./images/practice.png)
-
-  - [Deployed Here](https://react-practice-hooks.netlify.app/)
-  - 
-
-<br />
